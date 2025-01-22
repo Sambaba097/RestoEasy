@@ -10,7 +10,9 @@ export default {
         './resources/views/**/*.blade.php',
         './resources/**/*.blade.php',
         './resources/**/*.js',
-        './resources/**/*.vue',
+        './resources/**/*.{ts,tsx,vue}',
+        './node_modules/@shadcn/ui/**/*.{js,ts,jsx,tsx}',
+
 
     ],
 
