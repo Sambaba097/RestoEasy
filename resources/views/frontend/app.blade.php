@@ -21,14 +21,14 @@
 
             <!-- Navigation Links -->
             <div class="hidden sm:-my-px sm:ml-6 sm:flex space-x-8">
-                <a href="#menu" class="text-gray-500 hover:text-gray-700 dark:text-gray-300 dark:hover:text-white transition">Menu</a>
+                <a href=" {{ route('menu') }} " class="text-gray-500 hover:text-gray-700 dark:text-gray-300 dark:hover:text-white transition">Menu</a>
                 <a href="#contact" class="text-gray-500 hover:text-gray-700 dark:text-gray-300 dark:hover:text-white transition">Contact</a>
                 <a href="#reserver" class="text-gray-500 hover:text-gray-700 dark:text-gray-300 dark:hover:text-white transition">Réserver</a>
             </div>
 
             <!-- Login Button -->
             <div class="flex items-center">
-                <a href="#connexion" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">
+                <a href=" {{ route('login') }} " class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">
                     Connexion
                 </a>
             </div>
